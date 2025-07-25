@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-black text-white h-20 w-full flex flex-row items-center">
+    <header class="bg-darkgray text-white h-20 w-full flex flex-row items-center">
         <div class="flex h-20 w-full justify-start">
             <img class="py-2 ml-5" src="/src/assets/logo.png">
         </div>

@@ -1,19 +1,21 @@
 <template>
-    <div>
-        <hero-section/>
-        <about-us/>
-        <menu-page/>
-        <review-section/>
-        <footer-section/>
+    <div class="overflow-x-hidden">
+        <HeroSection/>
+        <AboutUs/>
+        <MenuSection/>
+        <ReviewSection/>
+        <FooterSection/>
     </div>
 </template>
 
 <script setup lang="ts">
-import HeroSection from '../components/HomePage/HeroSection.vue';
 import AboutUs from '../components/HomePage/AboutUs.vue';
-import MenuPage from '../components/HomePage/Menu.vue';
+import FooterSection from '../components/HomePage/FooterSection.vue';
+import HeroSection from '../components/HomePage/HeroSection.vue';
+import MenuSection from '../components/HomePage/MenuSection.vue';
 import ReviewSection from '../components/HomePage/ReviewSection.vue';
-import FooterSection from '../components/HomePage/Footer.vue';
+
+
 </script>
 
 <style scoped>
