@@ -6,9 +6,9 @@
         </div>
 
 
-        <p class="text-left text-[10px] px-4">Authentic Neapolitan pizza made the traditional way. Fresh ingredients, wood-fired ovens, and recipes passed down through generations of Italian masters.</p>
+        <p class="text-left text-[10px] px-4 italic">Authentic Neapolitan pizza made the traditional way. Fresh ingredients, wood-fired ovens, and recipes passed down through generations of Italian masters.</p>
 
-        <button class="mt-5 w-fit h-fit p-3 bg-amber-500 text-darkgray font-bold mx-auto px-20 underline transition active:scale-110">Order now<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        <button class="mt-5 w-fit h-fit p-3 bg-amber-500 text-darkgray font-bold mx-auto px-20 underline transition active:scale-110 active:-translate-y-4">Order now<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
 
         <div class="flex justify-center items-center h-full">
             <img class="size-80 rounded-xl" src="/src/assets/images/pizza.jpg" alt="Pizza">
