@@ -1,5 +1,5 @@
 <template>
-    <div class="h-fit py-10 flex flex-col bg-black text-white gap-5">
+    <div id="contacts"  class="h-fit py-10 flex flex-col bg-black text-white gap-5">
         <h1 class="text-center text-2xl font-bold">Message us</h1>
 
         <div class="flex flex-col gap-8 mx-auto">

@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[100vh] flex flex-col">
+    <div id="about"  class="h-[100vh] flex flex-col">
         <div class="flex flex-col">
             <h1 class="text-center mt-8 text-2xl font-bold text-darkgray">About Us</h1>
             <hr class="mx-auto w-15 h-2 bg-amber-500 border-0 rounded-sm">

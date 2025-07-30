@@ -1,5 +1,5 @@
 <template>
-    <div class="h-fit py-10 bg-darkgray text-white grid grid-cols-1 gap-10">
+    <div id="info"  class="h-fit py-10 bg-darkgray text-white grid grid-cols-1 gap-10">
         <div class="flex flex-col gap-3">
             <h1 class="text-center text-2xl font-bold">About us</h1>
             <p class="text-center text-sm mx-15 italic">From intimate dinners to family celebrations, our dedicated team is committed to exceptional food and warm hospitality. Thank you for choosing us, we can't wait to welcome you.</p>

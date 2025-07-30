@@ -1,5 +1,5 @@
 <template>
-    <div class="h-fit bg-darkgray pb-15">
+    <div id="menu"  class="h-fit bg-darkgray pb-15">
         <h1 class="text-white text-2xl font-bold text-center pt-8">Menu</h1>
         <hr class="mx-auto w-10 h-2 bg-amber-500 border-0 rounded-sm">
 
