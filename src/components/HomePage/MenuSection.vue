@@ -1,12 +1,12 @@
 <template>
     <div class="h-fit bg-darkgray pb-15">
         <h1 class="text-white text-2xl font-bold text-center pt-8">Menu</h1>
-        <hr class="mx-auto w-8 h-2 bg-amber-500 border-0 rounded-sm">
+        <hr class="mx-auto w-10 h-2 bg-amber-500 border-0 rounded-sm">
 
         <div class="flex flex-col py-10 text-white text-lg gap-5">
-            <button @click="category = 'pizza'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-110 active:-translate-y-4">Pizza</button>
-            <button @click="category = 'appetizers'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-110 active:-translate-y-4">Appetizer</button>
-            <button @click="category = 'drinks'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-110 active:-translate-y-4">Drinks</button>
+            <button @click="category = 'pizza'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Pizza</button>
+            <button @click="category = 'appetizers'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Appetizer</button>
+            <button @click="category = 'drinks'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Drinks</button>
         </div>
 
         <!-- Pizzas div -->

@@ -13,7 +13,7 @@
                 <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
                 <a href="https://x.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
                 <a href="https://www.linkedin.com/"><i class="fa-brands fa-square-linkedin"></i></a>
-                </div>
+            </div>
         </div>
         
 
