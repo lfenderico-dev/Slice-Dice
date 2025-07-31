@@ -1,5 +1,5 @@
 <template>
-    <div class="fade-in-right bg-darkgray shadow-2xl shadow-black w-full h-fit p-4 rounded-2xl absolute top-8 flex flex-col z-100 gap-y-2">
+    <div class="fade-in-right bg-darkgray shadow-2xl shadow-black w-full h-fit p-4 rounded-2xl absolute top-8 flex flex-col z-100 gap-y-2 sm:text-lg">
         <button @click="scrollToAbout">About</button>
         <button @click="scrollToMenu">Menu</button>
         <button @click="scrollToContacts">Contact us</button>
