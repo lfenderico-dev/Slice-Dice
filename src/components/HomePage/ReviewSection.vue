@@ -1,11 +1,11 @@
 <template>
     <div class="h-fit">
-        <h1 class="text-center text-2xl sm:text-3xl font-bold my-5">What are people saying?</h1>
+        <h1 class="text-center text-2xl sm:text-3xl lg:text-4xl font-bold my-5">What are people saying?</h1>
 
         <button class="block my-8 mx-auto w-fit font-bold bg-amber-500 p-4 text-darkgray"><i class="fa-solid fa-comment-dots"></i> Leave your review <i class="fa-solid fa-comment-dots"></i></button>
 
         <div class="scroll flex flex-row overflow-x-auto snap-x">
-            <ReviewItem class="w-fit h-fit sm:size-120 shrink-0 snap-center" v-for="review in reviews" :imgSrc="review.imgSrc" :reviewHeading="review.reviewHeading" :review="review.review" :name="review.name"/>
+            <ReviewItem class="w-fit h-fit sm:size-120 lg:size-140 shrink-0 snap-center" v-for="review in reviews" :imgSrc="review.imgSrc" :reviewHeading="review.reviewHeading" :review="review.review" :name="review.name"/>
         </div>
     </div>
 </template>
