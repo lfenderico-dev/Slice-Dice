@@ -1,16 +1,16 @@
 <template>
     <div id="menu"  class="h-fit bg-darkgray pb-15">
-        <h1 class="text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-center pt-8">Menu</h1>
+        <h1 class="text-white text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-center pt-8">Menu</h1>
         <hr class="mx-auto w-10 xl:w-15 h-2 bg-amber-500 border-0 rounded-sm">
 
-        <div class="flex flex-col lg:flex-row py-10 text-white text-lg sm:text-xl xl:text-2xl gap-5">
+        <div class="flex flex-col lg:flex-row py-10 text-white text-lg sm:text-xl xl:text-2xl 2xl:text-3xl gap-5">
             <button @click="category = 'pizza'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Pizza</button>
             <button @click="category = 'appetizers'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Appetizer</button>
             <button @click="category = 'drinks'"  class="font-bold mx-auto w-fit shadow-black shadow-2xl px-25 py-3 transition active:scale-120 active:-translate-y-4">Drinks</button>
         </div>
 
         <!-- Pizzas div -->
-        <div v-if="category == 'pizza' || category == null"   class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 xl:gap-6 gap-10">
+        <div v-if="category == 'pizza' || category == null"   class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 xl:gap-6 gap-10">
             <MenuItem v-for="pizza in pizzas" :name="pizza.name" :description="pizza.description" :img-src="pizza.imgSrc" :price="pizza.price" @addToCart="handleCart"/>
         </div>
 
