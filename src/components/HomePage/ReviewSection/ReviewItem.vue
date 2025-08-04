@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-5 rounded-2xl shadow-2xl shadow-darkgray mx-4 my-4">
-        <img class="mx-auto w-80 h-60 lg:w-90 lg:h-70 xl:w-100 xl:h-80 2xl:w-140 2xl:h-120 object-cover rounded-2xl mt-5" :src="imgSrc">
+        <img loading="lazy"  class="mx-auto w-80 h-60 lg:w-90 lg:h-70 xl:w-100 xl:h-80 2xl:w-140 2xl:h-120 object-cover rounded-2xl mt-5" :src="imgSrc">
 
         <div class="flex flex-row gap-1 justify-center text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-amber-500">
             <i class="fa-solid fa-star"></i>

@@ -18,7 +18,7 @@
             </div>
 
             <div class="flex justify-center items-center">
-                <img class="rounded-xl w-80 sm:w-70 sm:h-50 md:w-80 md:h-55 lg:w-110 lg:h-70 xl:w-145 xl:h-95 2xl:w-240 2xl:h-160 2xl:mr-14" src="/src/assets/images/waitress.jpg" alt="waitress">
+                <img loading="lazy"  class="rounded-xl w-80 sm:w-70 sm:h-50 md:w-80 md:h-55 lg:w-110 lg:h-70 xl:w-145 xl:h-95 2xl:w-240 2xl:h-160 2xl:mr-14" src="/src/assets/images/waitress.jpg" alt="waitress">
             </div>
 
 
