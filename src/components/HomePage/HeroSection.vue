@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-1 gap-10 xl:gap-0 sm:grid-cols-2 bg-darkgray text-white h-fit pt-8 pb-30">
-        <div class="flex flex-col gap-4 lg:ml-4 2xl:ml-18">
+        <div class="flex flex-col 2xl:justify-center 2xl:gap-10 gap-4 lg:ml-4 2xl:ml-18">
             <div class="flex mx-auto w-full text-xl pl-5 font-bold">
                 <h1 class="sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">From <strong class="italic text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-amber-500">NAPOLI'S STREETS</strong> to your table with <strong class="italic text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-amber-500">PURE TRADITION</strong>
                 </h1>

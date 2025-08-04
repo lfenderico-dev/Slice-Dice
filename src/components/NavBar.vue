@@ -10,7 +10,7 @@
                 <div>Menu</div>
             </div>
 
-            <div v-if="activeDropDown" class="backdrop-blur w-[100vh] h-[100vh] z-50 fixed inset-0"></div>
+            <div v-if="activeDropDown" class="backdrop-blur w-full h-full z-50 fixed inset-0"></div>
             <MenuComponent v-if="activeDropDown"/>
         </div>
         
