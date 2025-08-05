@@ -13,12 +13,12 @@
 <script setup lang="ts">
 import ReviewItem from './ReviewSection/ReviewItem.vue';
 
-import SarahReviewImg from '/src/assets/images/reviewImages/image1.png'
-import MikeReviewImg from '/src/assets/images/reviewImages/image2.png'
-import JesscaReviewImg from '/src/assets/images/reviewImages/image3.png'
-import RobertReviewImg from '/src/assets/images/reviewImages/image4.png'
-import AmandaReviewImg from '/src/assets/images/reviewImages/image5.png'
-import DavidReviewImg from '/src/assets/images/reviewImages/image6.png'
+import SarahReviewImg from '/src/assets/images/reviewImages/image1.webp'
+import MikeReviewImg from '/src/assets/images/reviewImages/image2.webp'
+import JesscaReviewImg from '/src/assets/images/reviewImages/image3.webp'
+import RobertReviewImg from '/src/assets/images/reviewImages/image4.webp'
+import AmandaReviewImg from '/src/assets/images/reviewImages/image5.webp'
+import DavidReviewImg from '/src/assets/images/reviewImages/image6.webp'
 
 const reviews = [
     {

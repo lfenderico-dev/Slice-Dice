@@ -34,13 +34,13 @@ const category = ref<string | null>(null)
 
 import MenuItem from './MenuSection/MenuItem.vue';
 
-import margeritaImg from '/src/assets/images/pizzas/margherita.jpg'
-import marinaraImg from '/src/assets/images/pizzas/marinara.png'
-import quattrostagioniImg from '/src/assets/images/pizzas/4stagioni.png'
-import bufalinaImg from '/src/assets/images/pizzas/bufalina.jpg'
-import diavolaImg from '/src/assets/images/pizzas/diavola.jpg'
-import ortolanaImg from '/src/assets/images/pizzas/ortolana.jpg'
-import montanaraImg from '/src/assets/images/pizzas/montanara.jpg'
+import margeritaImg from '/src/assets/images/pizzas/margherita.webp'
+import marinaraImg from '/src/assets/images/pizzas/marinara.webp'
+import quattrostagioniImg from '/src/assets/images/pizzas/4stagioni.webp'
+import bufalinaImg from '/src/assets/images/pizzas/bufalina.webp'
+import diavolaImg from '/src/assets/images/pizzas/diavola.webp'
+import ortolanaImg from '/src/assets/images/pizzas/ortolana.webp'
+import montanaraImg from '/src/assets/images/pizzas/montanara.webp'
 
 const pizzas = [
     {
@@ -87,12 +87,12 @@ const pizzas = [
     }
 ]
 
-import bruschettaImg from '/src/assets/images/appetizers/bruschette.jpg'
-import salumiImg from '/src/assets/images/appetizers/salumi.jpg'
-import capreseImg from '/src/assets/images/appetizers/caprese.jpg'
-import antipastoMareImg from '/src/assets/images/appetizers/antipastoDiMare.png'
-import suppliImg from '/src/assets/images/appetizers/suppli.png'
-import frittatinaImg from '/src/assets/images/appetizers/frittatina.png'
+import bruschettaImg from '/src/assets/images/appetizers/bruschette.webp'
+import salumiImg from '/src/assets/images/appetizers/salumi.webp'
+import capreseImg from '/src/assets/images/appetizers/caprese.webp'
+import antipastoMareImg from '/src/assets/images/appetizers/antipastoDiMare.webp'
+import suppliImg from '/src/assets/images/appetizers/suppli.webp'
+import frittatinaImg from '/src/assets/images/appetizers/frittatina.webp'
 
 const appetizers = [
     {
@@ -133,11 +133,11 @@ const appetizers = [
     }
 ]
 
-import waterImg from '/src/assets/images/drinks/water.png'
-import beerImg from '/src/assets/images/drinks/beer.png'
-import cocacolaImg from '/src/assets/images/drinks/cocacola.png'
-import fantaImg from '/src/assets/images/drinks/fanta.png'
-import spriteImg from '/src/assets/images/drinks/sprite.png'
+import waterImg from '/src/assets/images/drinks/water.webp'
+import beerImg from '/src/assets/images/drinks/beer.webp'
+import cocacolaImg from '/src/assets/images/drinks/cocacola.webp'
+import fantaImg from '/src/assets/images/drinks/fanta.webp'
+import spriteImg from '/src/assets/images/drinks/sprite.webp'
 
 const drinks = [
     {

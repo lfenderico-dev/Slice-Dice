@@ -13,7 +13,7 @@
         </div>
 
         <div class="flex justify-center sm:mr-10 xl:mr-0 items-center h-full">
-            <img loading="lazy"  class="size-80 lg:size-90 sm:size-70 xl:size-110 2xl:size-140 rounded-xl" src="/src/assets/images/pizza.jpg" alt="Pizza">
+            <img loading="lazy"  class="size-80 lg:size-90 sm:size-70 xl:size-110 2xl:size-140 rounded-xl" src="/src/assets/images/pizza.webp" alt="Pizza">
         </div>
     </div>
 </template>

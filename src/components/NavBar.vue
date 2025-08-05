@@ -1,7 +1,7 @@
 <template>
     <header class="bg-darkgray text-white h-20 sm:h-30 lg:h-40 2xl:h-50 w-full flex flex-row items-center">
         <div class="flex h-20 sm:h-30 lg:h-40 2xl:h-50 w-full xl:ml-8">
-            <img loading="lazy"  class="py-2 ml-5 lg:pt-8" src="/src/assets/logo.png">
+            <img loading="lazy"  class="py-2 ml-5 lg:pt-8" src="/src/assets/logo.webp">
         </div>
 
         <div @click="activeDropDown = !activeDropDown" class="relative w-full justify-end flex mr-4 xl:mr-8 sm:text-lg lg:text-2xl xl:text-3xl">
