@@ -1,5 +1,5 @@
 # Slice&Dice
-[Img](src/assets/images/reviewImages/image1.webp)
+![Img](src/assets/images/reviewImages/image1.webp)
 Hello! Welcome to slice&dice, the best pizza restaurant in the world!
 
 ## What is slice&dice?
